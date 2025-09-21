@@ -92,7 +92,7 @@ Files are optimized for immediate import into:
 
 All stems are tempo-locked and sync automatically when imported.
 
-## 📱 Demo
+<!-- ## 📱 Demo
 
 **Live Demo Flow:**
 1. Show dashboard with PIN
@@ -100,7 +100,7 @@ All stems are tempo-locked and sync automatically when imported.
 3. Hum melody for 30 seconds  
 4. Display real-time processing status
 5. Download and play generated files
-6. Import into DAW for live music creation
+6. Import into DAW for live music creation -->
 
 ## 🏆 Hackathon Features
 

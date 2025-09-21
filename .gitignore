@@ -1,0 +1,75 @@
+# Hum It Out - Production .gitignore
+
+# Environment Variables (CRITICAL - Never commit API keys!)
+.env
+.env.local
+.env.development.local  
+.env.test.local
+.env.production.local
+.env.save
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+build/
+
+# Audio files (can be large)
+uploads/
+generated/
+*.wav
+*.mp3
+*.m4a
+*.mid
+*.midi
+
+# Logs
+logs/
+*.log
+
+# Temporary files  
+temp/
+tmp/
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing
+coverage/
+test-results/
+
+# Runtime data
+*.pid
+
+# Optional caches
+.npm
+.eslintcache
+
+# Local SSL certificates
+*.pem
+*.crt
+*.key
+
+# Don't commit user content
+recordings/
+sessions/
+user-uploads/
+
+# Security sensitive files
+private.key
+*.p12
+*.pfx
+serviceAccountKey.json
+google-credentials.json

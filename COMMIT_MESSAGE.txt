@@ -1,0 +1,13 @@
+🎵 feat: Voice-to-music AI system for Cascadia JS hackathon
+
+- Phone-based voice recording with PIN authentication
+- Multi-modal AI pipeline: Twilio → OpenAI Whisper → GPT-4 music generation  
+- Real-time processing with WebSocket updates
+- Professional DAW-ready outputs (MIDI, WAV stems, backing tracks)
+- Complete React dashboard with dark mode UI
+- Sponsor integrations: Twilio, OpenAI, Neon PostgreSQL
+
+Demo: Call phone number → hum melody → download studio files in 60 seconds
+
+Tech stack: Node.js, React, PostgreSQL, OpenAI, Twilio
+Features: Cross-platform DAW compatibility, real-time processing, secure PIN auth
